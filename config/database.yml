@@ -20,8 +20,6 @@ default: &default
   password: 1234
   host: localhost
 
-
-
 development:
   <<: *default
   database: y_com_development
